@@ -1,4 +1,3 @@
-use Deegitalbe\LaravelTrustupIoModelCommons\Models\AbstractModel;
 # laravel-trustup-io-model-commons
 
 ## Overview
