@@ -2,7 +2,7 @@
 
 ## Overview
 
-This package han
+This package handle uuids & softdeletes for your models.
 
 ## Installation
 
