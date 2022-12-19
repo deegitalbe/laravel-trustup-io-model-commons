@@ -2,6 +2,7 @@
 
 namespace Deegitalbe\LaravelTrustupIoModelCommons\Models;
 
+use Deegitalbe\LaravelTrustupIoModelCommons\Contracts\PersistableContract;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Deegitalbe\LaravelTrustupIoModelCommons\Models\Traits\HasUuid;
@@ -10,7 +11,7 @@ use Deegitalbe\LaravelTrustupIoModelCommons\Models\Traits\Persistable;
 /**
  * Base model for this project.
  */
-abstract class AbstractModel extends EloquentModel
+abstract class AbstractModel extends EloquentModel implements PersistableContract
 {
     use
         HasUuid,
