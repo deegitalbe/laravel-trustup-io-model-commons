@@ -22,9 +22,9 @@ abstract class AbstractModel extends EloquentModel implements PersistableContrac
     /**
      * Getting id.
      *
-     * @return int
+     * @return int|null
      */
-    public function getId(): int
+    public function getId(): ?int
     {
         return $this->id;
     }
